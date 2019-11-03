@@ -4,15 +4,13 @@
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#29ABE2;}
-	.st1{opacity:0.26;fill:#64C487;}
+	.st1{opacity:0.58;fill:#64C487;}
 	.st2{opacity:0.56;fill:#1B1464;}
 	.st3{opacity:0.58;fill:#004BF4;}
 </style>
-<g>
-	<rect class="st0" width="1920" height="1080"/>
-	<path class="st0" d="M890,380"/>
-	<path class="st1" d="M0,1080V0h627C418,360,209,720,0,1080z"/>
-	<path class="st2" d="M1918,0v1080h-627C1500,720,1709,360,1918,0z"/>
-	<path class="st3" d="M1920,1084L1,1084L1-3C640.67,359.33,1280.33,721.67,1920,1084z"/>
-</g>
+<rect class="st0" width="1920" height="1080"/>
+<path class="st0" d="M890,380"/>
+<path class="st1" d="M0,1080V0h627C418,360,209,720,0,1080z"/>
+<path class="st2" d="M1918,0v1080h-627C1500,720,1709,360,1918,0z"/>
+<path class="st3" d="M1920,1084L1,1084L1-3C640.67,359.33,1280.33,721.67,1920,1084z"/>
 </svg>
