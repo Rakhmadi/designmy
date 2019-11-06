@@ -7,9 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
 </head>
 <style>
    
@@ -117,6 +115,9 @@ body{
      .mid p{
          font-size: 20px ;
      }
+     header{
+         display: none;
+     }
 }
 
 .btn{
@@ -156,6 +157,31 @@ body{
     width: 100%;
     display: inline;
     float: left;
+}
+.btn-slider{
+    top: 50%;
+    right: 0px;
+    margin: 5px;
+    position: fixed;
+    background:rgb(84, 60, 219);
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slider{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  transition: 0.5s;
+  padding-top: 60px;
+  overflow-x:hidden;
+  
 }
 </style>
 <body>
@@ -351,10 +377,19 @@ body{
                             </div>
                         </div>
                   </div>
-
-                        </footer> 
+                        </footer>
+                        
+                        <div onclick="sw()"  class="btn-slider">></div>
+                        <div id="s" onclick="dd()" class="slider"><p>asdasdas</p></div>
+                       
                     <script>
-                
+                 function sw(){
+                     document.getElementById("s").style.width="50%"
+                 }
+                 function dd(){
+                     document.getElementById("s").style.width="0"
+                 }
+  
                     </script>
                     
 </body>
